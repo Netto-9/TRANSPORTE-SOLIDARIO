@@ -1,0 +1,1037 @@
+🚐 MEGA PROMPT — PLATAFORMA DE TRANSPORTE SOLIDÁRIO
+1. VISÃO GERAL DO PROJETO
+Crie uma plataforma web completa, moderna, profissional, responsiva e funcional chamada:
+TRANSPORTE SOLIDÁRIO
+Slogan sugerido:
+"Conectando pessoas, aproximando destinos."
+O objetivo da plataforma é facilitar o acesso da comunidade a informações sobre transporte solidário, permitindo que usuários consultem:
+* rotas disponíveis;
+* pontos de embarque;
+* horários;
+* previsão de chegada;
+* veículos em circulação;
+* alterações de rota;
+* atrasos;
+* interrupções;
+* avisos importantes;
+* localização dos veículos;
+* informações sobre cada linha;
+* calendário de funcionamento;
+* acessibilidade;
+* contatos;
+* solicitações de transporte;
+* histórico de avisos.
+O sistema deve ter duas áreas principais:
+ÁREA PÚBLICA
+Destinada aos passageiros e visitantes.
+PAINEL ADMINISTRATIVO
+Destinado aos responsáveis pelo transporte para cadastrar e administrar rotas, veículos, horários, motoristas, pontos, avisos e informações operacionais.
+2. OBJETIVO PRINCIPAL
+O site deve funcionar como uma central digital de informações do transporte solidário.
+O usuário deve conseguir entrar no site e descobrir rapidamente:
+"Qual transporte posso pegar?"
+"Onde ele passa?"
+"Qual o próximo horário?"
+"Onde está o veículo?"
+"Existe algum atraso?"
+"A rota está funcionando normalmente?"
+"Existe algum aviso importante?"
+A experiência deve ser extremamente simples mesmo para usuários com pouca familiaridade com tecnologia.
+Priorize:
+* clareza;
+* acessibilidade;
+* velocidade;
+* informações objetivas;
+* poucos cliques;
+* excelente experiência no celular.
+3. TECNOLOGIAS
+Crie o projeto utilizando tecnologias web modernas.
+Preferencialmente:
+* HTML5;
+* CSS3;
+* JavaScript moderno;
+* componentes reutilizáveis;
+* layout responsivo;
+* arquitetura organizada;
+* armazenamento persistente;
+* API preparada para integração futura;
+* banco de dados preparado para produção.
+Caso a plataforma utilizada permita frameworks, pode utilizar:
+* React;
+* Next.js;
+* Node.js;
+* Express;
+* PostgreSQL.
+Entretanto, o projeto deve continuar sendo compreensível e organizado.
+Se estiver criando um protótipo que funcione localmente, utilize:
+* localStorage ou IndexedDB;
+* dados JSON;
+* simulação de atualização em tempo real.
+IMPORTANTE:
+Não criar apenas uma interface visual.
+Os botões precisam funcionar.
+Os formulários precisam funcionar.
+As pesquisas precisam funcionar.
+Os filtros precisam funcionar.
+As rotas precisam ser navegáveis.
+Os dados cadastrados no painel administrativo devem atualizar automaticamente a área pública.
+4. IDENTIDADE VISUAL
+Criar uma identidade visual relacionada a:
+* solidariedade;
+* mobilidade;
+* comunidade;
+* transporte;
+* segurança;
+* acessibilidade;
+* confiança.
+Sugestão de cores:
+* azul escuro;
+* azul;
+* azul claro;
+* verde;
+* branco;
+* cinza claro.
+Utilizar gradientes modernos de forma moderada.
+O design deve transmitir:
+segurança + confiança + tecnologia + solidariedade.
+Evitar aparência infantil.
+Evitar excesso de cores.
+Evitar excesso de animações.
+Utilizar:
+* cards;
+* sombras suaves;
+* bordas arredondadas;
+* ícones;
+* microanimações;
+* glassmorphism moderado;
+* indicadores de status;
+* badges;
+* mapas;
+* gráficos.
+5. HEADER
+Criar um cabeçalho fixo no topo.
+Logo à esquerda:
+🚐 TRANSPORTE SOLIDÁRIO
+Menu:
+* Início
+* Rotas
+* Horários
+* Mapa
+* Avisos
+* Veículos
+* Como funciona
+* Acessibilidade
+* Contato
+Botões:
+🔎 Planejar viagem
+🚨 Avisos
+👤 Entrar
+No celular:
+Criar menu hamburger.
+6. HERO PRINCIPAL
+Criar uma seção inicial extremamente moderna.
+Título:
+Seu caminho. Nossa solidariedade.
+Texto:
+"Consulte rotas, horários, pontos de embarque e avisos do transporte solidário em um só lugar."
+Adicionar uma grande área de pesquisa.
+Campo:
+"Para onde você quer ir?"
+Campos:
+Origem
+Destino
+Data
+Horário
+Botão:
+🔎 ENCONTRAR TRANSPORTE
+Abaixo:
+Cards rápidos:
+🚐 Rotas disponíveis
+🕐 Próximos horários
+📍 Pontos de embarque
+🚨 Avisos em tempo real
+7. STATUS DO TRANSPORTE
+Criar um painel logo abaixo do Hero.
+Título:
+STATUS DO TRANSPORTE
+Mostrar indicadores:
+🟢 Operação normal
+🟡 Atenção
+🔴 Interrupção
+🔵 Informação
+Exemplo:
+🟢 Todas as rotas funcionando normalmente
+"Última atualização: 08:15"
+A hora deve ser atualizada automaticamente.
+8. MAPA INTERATIVO
+Criar uma seção:
+🗺️ MAPA DO TRANSPORTE
+O mapa deve permitir visualizar:
+* rotas;
+* pontos de embarque;
+* pontos de desembarque;
+* veículos;
+* terminais;
+* locais importantes;
+* áreas atendidas.
+Cada ponto deve possuir um marcador.
+Ao clicar no marcador:
+Mostrar:
+Nome do ponto
+Linhas que passam aqui
+Próximos horários
+Status
+Acessibilidade
+Exemplo:
+📍 Praça Central
+Linha: Rota 01
+Próximo veículo: 08:30
+Status: 🟢 Normal
+♿ Acessível
+Adicionar filtros:
+* Todas as rotas;
+* Linha 01;
+* Linha 02;
+* Linha 03;
+* Veículos;
+* Pontos de embarque;
+* Pontos acessíveis.
+9. ROTAS
+Criar uma página dedicada:
+🚐 ROTAS
+Cada rota deve aparecer em um card.
+Exemplo:
+ROTA 01
+Centro → Bairro Esperança
+Status:
+🟢 Funcionando normalmente
+Horários:
+06:00
+07:00
+08:00
+09:00
+10:00
+Botões:
+VER ROTA
+VER HORÁRIOS
+ACOMPANHAR
+ROTA 02
+Terminal → Hospital
+🟢 Funcionando normalmente
+Cada rota deve possuir:
+* nome;
+* número;
+* origem;
+* destino;
+* pontos;
+* horários;
+* dias de funcionamento;
+* duração estimada;
+* distância;
+* acessibilidade;
+* status;
+* veículo utilizado;
+* observações.
+10. PÁGINA DETALHADA DA ROTA
+Ao clicar em uma rota, abrir uma página detalhada.
+Mostrar:
+ROTA 01
+Centro → Bairro Esperança
+Status:
+🟢 EM OPERAÇÃO
+Mapa da rota.
+Lista de pontos:
+1. Terminal Central
+2. Praça Central
+3. Escola Municipal
+4. Posto de Saúde
+5. Bairro Esperança
+Cada ponto deve mostrar:
+* horário previsto;
+* horário estimado;
+* status;
+* acessibilidade.
+Exemplo:
+📍 Praça Central
+Previsto:
+08:20
+Estimativa:
+08:22
+Status:
+🟢 No horário
+11. HORÁRIOS
+Criar uma área:
+🕐 HORÁRIOS
+Permitir selecionar:
+* rota;
+* dia;
+* ponto;
+* horário.
+Mostrar tabela:
+```
+| Horário | Rota    | Ponto    | Status |
+| ------- | ------- | -------- | ------ |
+| 08:00   | Rota 01 | Terminal | 🟢     |
+| 08:20   | Rota 01 | Praça    | 🟢     |
+| 08:45   | Rota 01 | Escola   | 🟢     |
+```
+Criar filtros:
+* Hoje;
+* Amanhã;
+* Segunda;
+* Terça;
+* Quarta;
+* Quinta;
+* Sexta;
+* Sábado;
+* Domingo.
+12. PRÓXIMO TRANSPORTE
+Criar um componente destacado:
+🚐 PRÓXIMOS TRANSPORTES
+Exemplo:
+Rota 01
+📍 Praça Central
+Próximo:
+08:30
+Em aproximadamente:
+12 minutos
+Status:
+🟢 No horário
+Botão:
+ACOMPANHAR NO MAPA
+13. AVISOS EM TEMPO REAL
+Criar uma das áreas mais importantes do sistema:
+🚨 AVISOS EM TEMPO REAL
+Mostrar avisos com prioridade.
+Tipos:
+🟢 Normal
+🔵 Informação
+🟡 Atenção
+🔴 Urgente
+Exemplo:
+🔴 ALTERAÇÃO DE ROTA
+"A Rota 02 terá alteração temporária devido a obras na Avenida Central."
+Data:
+01/10/2026
+Hora:
+08:10
+Botão:
+VER DETALHES
+Outro exemplo:
+🟡 ATRASO
+"Rota 01 apresenta atraso estimado de 10 minutos."
+Outro:
+🔵 NOVO HORÁRIO
+"Novo horário disponível aos sábados."
+14. ATUALIZAÇÃO EM TEMPO REAL
+O sistema deve possuir uma arquitetura preparada para atualizações em tempo real.
+Sempre que o administrador:
+* publicar um aviso;
+* alterar uma rota;
+* cancelar um horário;
+* cadastrar atraso;
+* alterar o status de um veículo;
+* alterar um ponto;
+essas informações devem aparecer na área pública.
+Se estiver utilizando backend:
+Utilizar preferencialmente:
+* WebSocket;
+* Socket.IO;
+* Server-Sent Events;
+ou outra tecnologia apropriada.
+No protótipo local:
+simular atualizações em tempo real utilizando JavaScript.
+Mostrar:
+● AO VIVO
+quando houver atualização recente.
+15. VEÍCULOS
+Criar página:
+🚐 VEÍCULOS
+Cada veículo deve possuir:
+* número;
+* identificação;
+* tipo;
+* capacidade;
+* acessibilidade;
+* rota atual;
+* status.
+Exemplo:
+VEÍCULO 001
+Status:
+🟢 Em operação
+Rota:
+Rota 01
+Localização:
+Praça Central
+Acessibilidade:
+♿ Sim
+Capacidade:
+40 passageiros
+Status possíveis:
+🟢 Em operação
+🟡 Em manutenção
+🔵 Fora de serviço
+🔴 Problema
+16. LOCALIZAÇÃO DOS VEÍCULOS
+Criar sistema visual para acompanhar veículos.
+No mapa:
+🚐 Veículo 001
+🚐 Veículo 002
+🚐 Veículo 003
+Ao clicar:
+Mostrar:
+* identificação;
+* rota;
+* direção;
+* última atualização;
+* status;
+* próxima parada.
+Exemplo:
+🚐 Veículo 001
+Rota 01
+Sentido: Bairro Esperança
+Próxima parada: Escola Municipal
+Atualizado há 20 segundos
+17. PONTOS DE EMBARQUE
+Criar página:
+📍 PONTOS DE EMBARQUE
+Pesquisa:
+"Digite seu endereço ou procure um ponto..."
+Cards dos pontos:
+Praça Central
+📍 Endereço
+🚐 Rota 01
+🕐 Próximo: 08:30
+♿ Acessível
+Botão:
+VER NO MAPA
+18. ACESSIBILIDADE
+Criar uma página dedicada:
+♿ ACESSIBILIDADE
+Informar:
+* veículos acessíveis;
+* pontos acessíveis;
+* rampas;
+* espaço para cadeira de rodas;
+* prioridade;
+* atendimento especial.
+Criar filtros:
+Somente veículos acessíveis
+Somente pontos acessíveis
+19. PLANEJADOR DE VIAGEM
+Criar uma ferramenta:
+🧭 PLANEJE SUA VIAGEM
+Campos:
+De:
+Para:
+Data:
+Horário:
+Opções:
+○ Sair às
+○ Chegar até
+Botão:
+ENCONTRAR ROTAS
+Resultado:
+Opção 1
+🚐 Rota 01
+📍 Embarque: Praça Central
+🕐 08:30
+📍 Desembarque: Hospital
+🕐 09:00
+Botão:
+VER TRAJETO
+20. FAVORITOS
+Permitir que usuários salvem:
+* rotas favoritas;
+* pontos favoritos;
+* horários favoritos.
+Exemplo:
+❤️ Rota 01
+❤️ Praça Central
+❤️ Hospital
+Criar botão:
+🔔 Receber avisos desta rota
+21. NOTIFICAÇÕES
+Criar central de notificações.
+Exemplo:
+🔴 Rota 02 interrompida
+🟡 Rota 01 atrasada
+🔵 Novo horário cadastrado
+🟢 Serviço normalizado
+Permitir:
+* marcar como lida;
+* limpar notificações;
+* filtrar por rota.
+22. LOGIN
+Criar sistema de autenticação.
+Tipos:
+PASSAGEIRO
+Pode:
+* salvar favoritos;
+* receber notificações;
+* consultar histórico;
+* configurar preferências.
+ADMINISTRADOR
+Pode:
+* cadastrar rotas;
+* cadastrar horários;
+* cadastrar veículos;
+* cadastrar pontos;
+* publicar avisos;
+* acompanhar operações;
+* alterar status.
+OPERADOR
+Pode:
+* atualizar veículos;
+* registrar atrasos;
+* informar ocorrências;
+* atualizar status das rotas.
+23. PAINEL ADMINISTRATIVO
+Criar um painel administrativo extremamente completo.
+Dashboard:
+📊 CENTRAL DE OPERAÇÕES
+Mostrar:
+ROTAS ATIVAS
+12
+VEÍCULOS EM OPERAÇÃO
+8
+PASSAGEIROS ATENDIDOS
+1.248
+AVISOS ATIVOS
+3
+OCORRÊNCIAS
+2
+24. MENU ADMINISTRATIVO
+Criar menu lateral:
+📊 Dashboard
+🚐 Rotas
+🕐 Horários
+📍 Pontos
+🚍 Veículos
+👨‍✈️ Motoristas
+🚨 Avisos
+📡 Monitoramento
+👥 Usuários
+♿ Acessibilidade
+📈 Relatórios
+⚙️ Configurações
+🔐 Segurança
+25. GERENCIAMENTO DE ROTAS
+Administrador poderá:
+Adicionar rota
+Editar rota
+Excluir rota
+Ativar/desativar rota
+Campos:
+* nome;
+* código;
+* origem;
+* destino;
+* pontos;
+* horários;
+* dias;
+* veículo;
+* status;
+* observações.
+26. GERENCIAMENTO DE HORÁRIOS
+Administrador poderá:
+* adicionar horário;
+* editar;
+* remover;
+* duplicar;
+* definir dias;
+* definir exceções;
+* cancelar horário.
+Exemplo:
+Rota:
+01
+Horário:
+08:30
+Dia:
+Segunda-feira
+Status:
+Ativo
+27. GERENCIAMENTO DE AVISOS
+Criar formulário:
+NOVO AVISO
+Título:
+Descrição:
+Tipo:
+* Informação;
+* Atenção;
+* Urgente;
+* Alteração;
+* Interrupção;
+* Atraso.
+Rotas afetadas:
+Selecionar rota.
+Início:
+Data/hora.
+Fim:
+Data/hora.
+Botão:
+PUBLICAR AVISO
+Depois de publicar:
+mostrar automaticamente no site público.
+28. OCORRÊNCIAS
+Criar sistema de ocorrências.
+Exemplos:
+* acidente;
+* atraso;
+* veículo quebrado;
+* trânsito;
+* obra;
+* alteração de rota;
+* ponto temporariamente fechado;
+* emergência.
+Campos:
+* tipo;
+* descrição;
+* local;
+* rota;
+* veículo;
+* horário;
+* responsável;
+* status.
+Status:
+🔴 Aberta
+🟡 Em atendimento
+🟢 Resolvida
+29. RELATÓRIOS
+Criar página:
+📈 RELATÓRIOS
+Mostrar:
+* viagens realizadas;
+* atrasos;
+* cancelamentos;
+* rotas mais utilizadas;
+* horários mais utilizados;
+* veículos em operação;
+* ocorrências;
+* passageiros atendidos.
+Criar gráficos:
+* gráfico de linha;
+* gráfico de barras;
+* gráfico circular;
+* gráfico de área.
+Permitir selecionar período:
+Hoje
+7 dias
+30 dias
+90 dias
+Personalizado
+30. BANCO DE DADOS
+Estruturar entidades como:
+USERS
+id
+name
+email
+password_hash
+role
+created_at
+ROUTES
+id
+name
+code
+origin
+destination
+status
+created_at
+STOPS
+id
+route_id
+name
+address
+latitude
+longitude
+accessible
+SCHEDULES
+id
+route_id
+stop_id
+departure_time
+arrival_time
+day_of_week
+VEHICLES
+id
+code
+model
+capacity
+accessible
+status
+current_route
+DRIVERS
+id
+name
+phone
+status
+ALERTS
+id
+title
+description
+type
+route_id
+start_at
+end_at
+active
+INCIDENTS
+id
+type
+description
+location
+route_id
+vehicle_id
+status
+created_at
+NOTIFICATIONS
+id
+user_id
+title
+message
+type
+read
+created_at
+31. SEGURANÇA
+Implementar:
+* autenticação segura;
+* autorização por função;
+* proteção de rotas administrativas;
+* validação de formulários;
+* sanitização de dados;
+* proteção contra XSS;
+* proteção contra SQL Injection;
+* senhas armazenadas com hash;
+* sessões seguras;
+* logs administrativos.
+Nunca armazenar senhas em texto puro.
+32. RESPONSIVIDADE
+O site precisa funcionar perfeitamente em:
+📱 Smartphones
+📱 Tablets
+💻 Notebooks
+🖥️ Desktops
+📺 Monitores grandes
+Utilizar abordagem:
+MOBILE-FIRST
+No celular:
+* menu hamburger;
+* cards empilhados;
+* mapa adaptável;
+* botões grandes;
+* tabela transformada em cards;
+* navegação inferior opcional.
+33. ACESSIBILIDADE DIGITAL
+Implementar:
+* HTML semântico;
+* labels nos campos;
+* navegação por teclado;
+* contraste adequado;
+* foco visível;
+* textos alternativos;
+* ARIA quando necessário;
+* suporte a leitores de tela;
+* botões suficientemente grandes.
+Adicionar opção:
+🔠 Aumentar texto
+🌙 Alto contraste
+🔊 Leitura de conteúdo
+34. MODO ESCURO
+Adicionar:
+☀️ Modo claro
+🌙 Modo escuro
+Salvar preferência do usuário.
+35. BUSCA GLOBAL
+Criar pesquisa global.
+O usuário pode pesquisar:
+* rota;
+* ponto;
+* veículo;
+* horário;
+* aviso;
+* endereço.
+Exemplo:
+Pesquisa:
+Hospital
+Resultados:
+📍 Hospital Municipal
+🚐 Rota 02
+🕐 Próximo horário 09:15
+36. SISTEMA DE STATUS
+Criar componentes padronizados:
+🟢 NORMAL
+🟡 ATRASO
+🔴 INTERRUPÇÃO
+🔵 INFORMAÇÃO
+⚫ SEM SERVIÇO
+Os status devem aparecer de forma consistente em todo o sistema.
+37. PÁGINA "COMO FUNCIONA"
+Explicar em 3 etapas:
+1️⃣ Encontre sua rota
+Informe origem e destino.
+2️⃣ Confira o horário
+Veja o próximo transporte.
+3️⃣ Acompanhe
+Confira avisos e atualizações.
+38. PÁGINA DE CONTATO
+Criar:
+📞 FALE CONOSCO
+Campos:
+Nome
+Email
+Telefone
+Assunto
+Mensagem
+Botão:
+ENVIAR MENSAGEM
+Adicionar:
+* telefone;
+* email;
+* endereço;
+* horário de atendimento;
+* redes sociais.
+39. CENTRAL DE AJUDA
+Criar FAQ:
+Como consultar uma rota?
+Como saber o próximo horário?
+Como saber se existe atraso?
+Como receber avisos?
+Como localizar um ponto?
+O transporte é acessível?
+Como entrar em contato?
+40. PWA
+Preparar o projeto para funcionar como Progressive Web App.
+Criar:
+* manifest.json;
+* service worker;
+* ícones;
+* instalação no celular;
+* cache de informações essenciais.
+Quando possível, permitir acesso a informações básicas mesmo com conexão limitada.
+41. EXPERIÊNCIA OFFLINE
+Se a conexão cair:
+Mostrar:
+⚠️ SEM CONEXÃO
+"Algumas informações podem estar desatualizadas."
+Mostrar:
+Última atualização disponível: 08:15
+Não fingir que informações offline são em tempo real.
+42. TEMPO REAL
+Criar indicador:
+🟢 DADOS ATUALIZADOS
+"Atualizado agora"
+Quando a atualização estiver atrasada:
+🟡 ATUALIZAÇÃO ATRASADA
+"Última atualização há 3 minutos"
+Quando perder conexão:
+🔴 CONEXÃO PERDIDA
+43. FOOTER
+Criar footer profissional.
+Colunas:
+Transporte Solidário
+Sobre o projeto
+Como funciona
+Acessibilidade
+Transporte
+Rotas
+Horários
+Pontos
+Veículos
+Ajuda
+FAQ
+Contato
+Avisos
+Legal
+Privacidade
+Termos
+Cookies
+Final:
+© 2026 Transporte Solidário
+"Mobilidade que aproxima pessoas."
+44. ANIMAÇÕES
+Utilizar animações suaves:
+* fade;
+* slide;
+* hover;
+* loading;
+* skeleton;
+* transições.
+Não exagerar.
+Priorizar desempenho.
+45. LOADING STATES
+Sempre que carregar dados:
+mostrar skeleton/loading.
+Exemplo:
+████████████
+████████
+██████████████
+Nunca deixar uma área simplesmente vazia sem explicação.
+46. ERROS
+Criar mensagens amigáveis.
+Exemplo:
+😕 Não encontramos nenhuma rota
+"Tente mudar sua origem ou destino."
+Botão:
+NOVA PESQUISA
+47. DADOS DE DEMONSTRAÇÃO
+Adicionar dados iniciais para que o sistema não fique vazio.
+Rotas:
+Rota 01
+Centro → Bairro Esperança
+Rota 02
+Terminal → Hospital
+Rota 03
+Centro → Zona Rural
+Rota 04
+Escola → Centro
+Veículos:
+Veículo 001
+Rota 01
+Veículo 002
+Rota 02
+Veículo 003
+Rota 03
+Criar horários fictícios claramente identificados como dados de demonstração.
+48. DASHBOARD EM TEMPO REAL
+No painel administrativo mostrar:
+MAPA
+Veículos
+Rotas
+Ocorrências
+Avisos
+Indicadores.
+Exemplo:
+🟢 8 veículos ativos
+🟡 2 atrasados
+🔴 1 ocorrência
+🔵 12 rotas cadastradas
+49. SISTEMA DE AUDITORIA
+Registrar ações administrativas:
+"Administrador publicou aviso."
+"Operador alterou status do veículo 001."
+"Administrador alterou horário da Rota 02."
+Mostrar:
+* usuário;
+* ação;
+* data;
+* hora;
+* entidade afetada.
+50. CONFIGURAÇÕES
+Criar painel para alterar:
+* nome do projeto;
+* logo;
+* cores;
+* telefone;
+* email;
+* horário de funcionamento;
+* mensagens;
+* meta;
+* configurações de notificações;
+* configurações de mapas;
+* parâmetros de atualização.
+51. PERFORMANCE
+O site deve:
+* carregar rapidamente;
+* utilizar imagens otimizadas;
+* utilizar lazy loading;
+* minimizar JavaScript desnecessário;
+* evitar animações pesadas;
+* utilizar cache;
+* otimizar CSS;
+* funcionar bem em celulares mais simples.
+52. SEO
+Adicionar:
+* title;
+* meta description;
+* Open Graph;
+* favicon;
+* estrutura semântica;
+* headings corretos;
+* URLs amigáveis;
+* dados estruturados quando apropriado.
+Title:
+Transporte Solidário — Rotas, Horários e Avisos
+Description:
+Consulte rotas, horários, pontos de embarque e avisos atualizados do Transporte Solidário.
+53. PRINCÍPIO FUNDAMENTAL
+O sistema deve sempre deixar claro quando uma informação é:
+TEMPO REAL
+ou
+HORÁRIO PROGRAMADO
+ou
+ÚLTIMA ATUALIZAÇÃO
+Nunca apresentar uma informação antiga como se fosse atual.
+Exemplo:
+Horário programado: 08:30
+Estimativa atual: 08:34
+Última atualização: 08:28
+54. EXPERIÊNCIA DO USUÁRIO
+O usuário deve conseguir realizar as principais tarefas em poucos passos.
+Fluxo principal:
+1. Entrar no site.
+2. Informar destino.
+3. Encontrar rota.
+4. Ver próximo horário.
+5. Ver ponto de embarque.
+6. Acompanhar rota.
+7. Receber avisos.
+Tudo deve ser visualmente simples.
+55. RESULTADO FINAL
+O resultado deve parecer uma plataforma real de transporte comunitário, e não apenas um template.
+O sistema deve possuir:
+✅ Página pública completa
+✅ Mapa interativo
+✅ Rotas
+✅ Horários
+✅ Pontos de embarque
+✅ Veículos
+✅ Avisos em tempo real
+✅ Status operacional
+✅ Planejador de viagem
+✅ Favoritos
+✅ Notificações
+✅ Login
+✅ Painel administrativo
+✅ Gerenciamento de rotas
+✅ Gerenciamento de horários
+✅ Gerenciamento de veículos
+✅ Gerenciamento de avisos
+✅ Ocorrências
+✅ Relatórios
+✅ Gráficos
+✅ Acessibilidade
+✅ Modo escuro
+✅ Responsividade
+✅ PWA
+✅ Banco de dados estruturado
+✅ Segurança
+✅ Sistema de auditoria
+✅ Atualização em tempo real
+✅ Sistema preparado para expansão
+56. REGRA MAIS IMPORTANTE PARA A IA DESENVOLVEDORA
+Não entregue somente um mockup.
+Não entregue somente HTML estático.
+Não crie botões falsos.
+Não crie páginas sem funcionalidade.
+Cada botão deve possuir uma ação.
+Cada formulário deve possuir validação.
+Cada rota deve possuir dados.
+Cada horário deve estar relacionado a uma rota e a um ponto.
+Cada aviso deve poder ser criado e atualizado pelo administrador.
+As informações administrativas devem refletir na área pública.
+O projeto deve ser estruturado para posteriormente receber uma API real, banco de dados real, GPS dos veículos e notificações reais.
+Quando uma funcionalidade de tempo real não puder ser implementada no ambiente atual, criar uma simulação funcional claramente identificada como DEMONSTRAÇÃO, deixando a arquitetura preparada para substituir a simulação por dados reais.
+57. OBJETIVO VISUAL FINAL
+Imagine uma mistura de:
+aplicativo de transporte + painel operacional + mapa interativo + plataforma comunitária.
+O resultado precisa transmitir:
+🚐 Mobilidade
+❤️ Solidariedade
+📍 Localização
+🕐 Pontualidade
+🚨 Informação
+♿ Inclusão
+🔒 Segurança
+💻 Tecnologia
+Criar uma interface premium, moderna, limpa, profissional e extremamente funcional.
+Priorizar a experiência mobile, mas garantir excelente funcionamento em computadores.
+O projeto deve estar pronto para evolução futura para um sistema real de transporte solidário.
